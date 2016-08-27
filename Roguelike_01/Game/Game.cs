@@ -9,6 +9,14 @@ namespace Roguelike_01
 {
     class Game
     {
+        #region Internal
+
+        internal static Game Instance { get; set; }
+
+        internal static Dungeon Dungeon { get; set; }
+
+        #endregion
+
         public Game()
         {
             if (Instance != null)
@@ -23,8 +31,5 @@ namespace Roguelike_01
             Console.WriteLine("Initializing Dungeon...");
             Dungeon = new Dungeon();
         }
-
-        internal static Game Instance { get; set; }
-        internal static Dungeon Dungeon { get; set; }
     }
 }
