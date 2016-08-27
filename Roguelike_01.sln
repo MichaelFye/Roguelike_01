@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roguelike_01", "Roguelike_01\Roguelike_01.csproj", "{3F7363E3-5294-408C-AFE0-D2D486405721}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleView", "ConsoleView\ConsoleView.xproj", "{81440FE9-70E7-4129-9A54-12C12A71AE08}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Engine", "Engine\Engine.xproj", "{994A9D9F-DFFE-4A9A-92C6-CE8CD7852BF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3F7363E3-5294-408C-AFE0-D2D486405721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F7363E3-5294-408C-AFE0-D2D486405721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F7363E3-5294-408C-AFE0-D2D486405721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81440FE9-70E7-4129-9A54-12C12A71AE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81440FE9-70E7-4129-9A54-12C12A71AE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81440FE9-70E7-4129-9A54-12C12A71AE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81440FE9-70E7-4129-9A54-12C12A71AE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994A9D9F-DFFE-4A9A-92C6-CE8CD7852BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994A9D9F-DFFE-4A9A-92C6-CE8CD7852BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994A9D9F-DFFE-4A9A-92C6-CE8CD7852BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994A9D9F-DFFE-4A9A-92C6-CE8CD7852BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
